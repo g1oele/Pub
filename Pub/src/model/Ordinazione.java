@@ -25,7 +25,10 @@ public class Ordinazione {
     public int getNumeroTavolo(){
         return NumeroTavolo;
     }
-    
+    /**
+     * Restituisce gli alimenti ordinati
+     * @return ArrayList
+     */
     public ArrayList<String> getAlimenti(){
         return alimenti;
     }
