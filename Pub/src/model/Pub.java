@@ -37,7 +37,7 @@ public class Pub {
      * una volta rimossa stampa lo scontrino e l'ordinazione non sarà più recuperabile
      * @param a ordinazione da rimuovere
      */
-    public void removeOrdinazione(Ordinazione a){
+    private void removeOrdinazione(Ordinazione a){
         
     }
     /**
@@ -45,7 +45,7 @@ public class Pub {
      * @param a ordinazione da calcolare
      * @return stringa contenente lo scontrino
      */
-    private String createScontrino(Ordinazione a){
+    public String createScontrino(Ordinazione a){
         return "";
     }
     /**
