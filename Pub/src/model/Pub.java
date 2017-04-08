@@ -41,7 +41,7 @@ public class Pub {
         
     }
     /**
-     * scrive lo scontrino dell'ordinazione
+     * scrive lo scontrino dell'ordinazione e rimuove l'ordinazione dall'arraylist totale delle ordinazioni
      * @param a ordinazione da calcolare
      * @return stringa contenente lo scontrino
      */
