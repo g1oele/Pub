@@ -13,7 +13,7 @@ public class Menu {
      * restituisce i prodotti del pub
      * @return hashmap
      */
-    public HashMap getMenu(){
+    public HashMap<String,Integer> getMenu(){
         return prodotti;
     }
     /**
