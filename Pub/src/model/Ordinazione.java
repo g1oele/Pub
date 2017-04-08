@@ -1,11 +1,10 @@
 package model;
-
 import java.util.ArrayList;
 
 /**
  * Classe per le ordinazioni dei clienti
  * Gestisce bevande, alimenti e numero del tavolo
- * @author negri.gioele
+ * @author baudini.lorenzo
  */
 public class Ordinazione {
     private int NumeroTavolo;
