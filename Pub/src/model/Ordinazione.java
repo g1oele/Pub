@@ -25,4 +25,8 @@ public class Ordinazione {
     public int getNumeroTavolo(){
         return NumeroTavolo;
     }
+    
+    public ArrayList<String> getAlimenti(){
+        return alimenti;
+    }
 }
