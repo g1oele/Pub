@@ -17,11 +17,7 @@ public class Data {
      * inizializza la data e l'ora con quelle attuali
      */
     public Data(){
-        momento = Instant.now().toEpochMilli();
-        data = new Date(momento);
-        DateFormat format = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
-        format.setTimeZone(TimeZone.getTimeZone("CET"));
-        d = format.format(data);
+        refreshData();
     }
     /**
      * Stampa l'ultima data salvata
